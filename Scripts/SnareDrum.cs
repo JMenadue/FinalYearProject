@@ -19,6 +19,8 @@ public class SnareDrum : MonoBehaviour
     }
 
 
+    //Realistically the if statements need to be changed to a switch statement to allow for further development. 
+    //Nesting of if statements can get messy very quickly and the code would be more efficient in future and easier to read as a switch statement.
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log(collision.relativeVelocity.magnitude);
